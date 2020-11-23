@@ -9,7 +9,7 @@
   "metadataVersion": "0.1.0",
   "source": {
     "compiler": "solang 0.1.5",
-    "hash": "0x07a0a85ee0a439623d5b3feccd6b3ea2e8a4a4e75c283a8fe5476c7d0c9fde72",
+    "hash": "0x41a4e83211d362f7f5d8c00e098735a310bb546832a0633672e58805ed64d0c3",
     "language": "Solidity 0.1.5"
   },
   "spec": {
@@ -38,17 +38,6 @@
       {
         "args": [],
         "docs": [
-          "A message that can be called on instantiated contracts. This one flips the value of the stored `bool` from `true` to `false` and vice versa.\n\n"
-        ],
-        "mutates": true,
-        "name": "flip",
-        "payable": false,
-        "return_type": null,
-        "selector": "0xcde4efa9"
-      },
-      {
-        "args": [],
-        "docs": [
           "Simply returns the current value of our `bool`.\n\n"
         ],
         "mutates": false,
@@ -61,6 +50,17 @@
           "type": 1
         },
         "selector": "0x6d4ce63c"
+      },
+      {
+        "args": [],
+        "docs": [
+          "A message that can be called on instantiated contracts. This one flips the value of the stored `bool` from `true` to `false` and vice versa.\n\n"
+        ],
+        "mutates": true,
+        "name": "flip",
+        "payable": false,
+        "return_type": null,
+        "selector": "0xcde4efa9"
       }
     ]
   },

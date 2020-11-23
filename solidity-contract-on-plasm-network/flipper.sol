@@ -2,7 +2,7 @@ contract flipper {
 	bool private value;
 
 	/// Constructor that initializes the `bool` value to the given `init_value`.
-	constructor(bool initvalue) public {
+	constructor(bool initvalue) {
 		value = initvalue;
 	}
 
@@ -12,7 +12,7 @@ contract flipper {
 	function flip() public {
 		value = !value;
 	}
-	
+
 	/// Simply returns the current value of our `bool`.
 	function get() public view returns (bool) {
 		return value;
